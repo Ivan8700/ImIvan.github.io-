@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan's resume</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--top-page, alps and greeting-->
+    <section id="top-page">
+        <div id="header">
+            <h1>HI! </br> I'M IVAN</h1>
+            <h2 class="info">I'm a programmer</h2>
+        </div>
+        <img src="./assets/profile-image.png" alt="My photo" id="my-photo" />
+    </section>
+    <!-- Education-->
+    <section class="education-info" style="text-align: justify;">
+        <h1 style="margin-top: 10px; font-family: 'Droid Serif', serif; font-size:60px;">Education</h1>
+        <div class="col-lg-6 mx-auto">
+            <ul class="info" style="list-style-type:none;  white-space: nowrap; letter-spacing: 5px;">
+                <li>University of Haifa</li>
+                <li>Mathematics with Computer science, 07/2020-03/2024</li>
+                <li>Graduation with honors, top 3% - GPA 86.8</li>
+                <li>Excellence scholarships - 2021,2022</li>
+            </ul>
+        </div>
+    </section>
+    <!--Project list-->
+    <h1
+        style="margin-top: 10px; font-family: 'Droid Serif', serif; font-size:60px; text-align: center; margin-top: 75px;">
+        Projects - Python & C++</h1>
+    <div class="container px-4">
+        <div class="row g-4 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+                    style="border-radius: 50%; height: 150px; width: 150px;">
+                    <img src="./assets/balance.svg" alt="Machine icon" height="100px" width="100px" />
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Load scheduling with even sums</h3>
+                <p>Given N positive integers (also known as "jobs") and M machines, find a schedule for these jobs on
+                    the machines such that the makepsan will be minimal.<br />
+                    Implemented 3 Different algorithms - Local search, Branch and Bound, Evolutionary algorithm.
+                </p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+                    style="border-radius: 50%; height: 150px; width: 150px;">
+                    <img src="./assets/binpacking.svg" alt="Bin icon" height="100px" width="100px" />
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Bin Packing</h3>
+                <p>Given 'n' items of size (0,1] , assign the items to bins of size at most 1 such that the amount of
+                    bins used will be minimal.<br />
+                    Implemented 3 Different algorithms - Local search, Branch and Bound, Evolutionary algorithm.
+                </p>
+            </div>
+            <div class="feature col">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"
+                    style="border-radius: 50%; height: 150px; width: 150px;">
+                    <img src="./assets/Sudoku.svg" alt="Soduku icon" height="100px" width="100px" />
+                </div>
+                <h3 class="fs-2 text-body-emphasis">Sodoku Solver</h3>
+                <p> An algorithm that uses the Backtracking method to solve Sodoku at any given size n x n.</p>
+            </div>
+        </div>
+    </div>
+    <a href="https://github.com/Ivan8700?tab=repositories" style="text-align:center;display:block; font-size: 32px;">Take me to Git</a>
+</body>
+
+</html>
